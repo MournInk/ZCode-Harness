@@ -1,8 +1,8 @@
 # ZCode CLI Harness — 逆向工程还原 · 完整文件说明
 
 > **逆向对象**：`ZCode/resources/glm/zcode.cjs`（9.42 MB，esbuild 打包的 Node CJS CLI）。
+> 
 > **本工程**：对该 Harness 的**可读源码重建**——驱动整个 AI Agent 的运行时外壳。
-> **位置**：`C:\Users\Admin\AppData\Local\Temp\zcode_re\harness\`
 
 原始代码经 esbuild 压缩混淆（标识符被改写成 `t8r` / `Ckt` / `E0` 等单字母变量），
 无法逐行还原 TypeScript；本工程保留了**真实无损的字符串内容**（系统提示全文、
